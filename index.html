@@ -1,27 +1,27 @@
 <!DOCTYPE html>
+<!-- Objective: This project is to create a structured personal profile webpage using HTML only, showcasing basic web development skills through a bio, hobbies, and contact details -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My profile</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>My Personal Profile</title>
   </head>
   <body>
-    <!-- Objective: The goal of this project is to create a personal project webpage using only HTML. This exercise will test your ability to structure a webpage using semantic HTML elements. -->
-
+    <!-- Header -->
     <header>
       <h1>My Profile</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#hobbies">Hobbies</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
     </header>
-    <!-- Bio Section -->
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Me</a>
+        <a href="#">Hobbies</a>
+        <a href="#">Contact Me</a>
+      </nav>
+
+    <!-- About section -->
     <section id="about">
-      <h2>About Me</h2>
+      <h3>About Me</h3>
       <img src="/img/my-image.jpg" alt="Profile Image" width="150" />
       <p>
         Hi, I'm Obinna! I'm a passionate web developer with a love for creating
@@ -31,37 +31,26 @@
         improve my craft.
       </p>
     </section>
-    <!-- Hobbies Section -->
+
+    <!-- Hobbies section -->
     <section id="hobbies">
-      <h2>My Hobbies</h2>
-      <p>
-        In my free time, I love engaging in activities that keep me inspired and
-        entertained. Here are some of my favorite hobbies:
-      </p>
-      <ul>
-        <li>Coding - I enjoy building projects and learning new frameworks.</li>
-        <li>Listening to Music - Music helps me relax and think creatively.</li>
-        <li>
-          Gaming - Playing strategic and adventure games sharpens my
-          problem-solving skills.
-        </li>
-      </ul>
-    </section>
-    <!-- Skills Section -->
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML, CSS, and JavaScript</li>
-        <li>Responsive Web Design</li>
-        <li>Problem-Solving and Debugging</li>
-      </ul>
+      <h3>My Hobbies and Interests</h3>
+      <ol>
+        <li>Designing creative visuals</li>
+        <li>Coding and building interactive web pages</li>
+        <li>Learning new skills, especially in tech and personal growth</li>
+      </ol>
     </section>
 
-    <!-- Footer Section -->
-    <footer id="contact">
-      <h2>Contact Me</h2>
-      <p>Feel free to reach out to me for collaboration or networking:</p>
-      <p>Email: onyemaobinna24@gmail.com</p>
+    <!-- contact section -->
+    <footer>
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto: onyemaobinna24@gmail.com"> onyemaobinna24@gmail.com</a></p>
+
+      <p>
+        <strong>Follow Me:</strong>
+        <a href="https://www.facebook.com/bello.damilola.921/" target="_blank">Facebook</a>
+       </p>
     </footer>
   </body>
 </html>
